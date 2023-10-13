@@ -38,7 +38,7 @@ const Header = () => {
               rel="noreferrer"
               aria-label={secondaryAction.text}
               to={secondaryAction.href}
-              className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md border-primary text-secondary bg-background dark:bg-black hover:text-primary md:py-4 md:text-lg md:px-10`}
+              className={`w-full flex items-center justify-center px-8 py-3 bg-zinc-100 border border-transparent text-base font-medium rounded-md border-primary text-secondary dark:bg-black hover:text-primary md:py-4 md:text-lg md:px-10`}
             >
               {secondaryAction.text}
             </Link>
